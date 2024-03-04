@@ -1,3 +1,5 @@
+@use "functions" as media;
+
 .main {
   min-height: 100%;
   display: flex;
@@ -5,11 +7,22 @@
 }
 
 .layout {
-  padding: 0 10px;
+  padding: 0 16px;
   margin: auto;
   display: block;
 
-  @include breakpoint(tablet) {
+  @include media.breakpoint(tablet) {
     padding: 0 62px;
+  }
+
+}
+
+.main__content {
+  .layout {
+    @include media.breakpoint(desktop) {
+      max-width: 1061px;
+      margin: auto;
+      padding: 0;
+    }
   }
 }

@@ -1,0 +1,46 @@
+@use "functions" as media;
+
+.section__heading {
+  font-family: var(--main-font);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  color: var(--color1);
+}
+
+.section__body {
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: var(--color5);
+}
+
+
+.section__inner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 25px;
+
+  @include media.breakpoint(desktop) {
+    flex-direction: row;
+    margin-bottom: 64px;
+  }
+
+}
+
+.section__inner__text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 7px;
+
+  @include media.breakpoint(desktop) {
+    text-align: left;
+  }
+}

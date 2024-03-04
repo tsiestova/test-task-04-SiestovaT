@@ -10,11 +10,306 @@
             sizes="32x32"
             href="assets/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
     <title>Test Work</title>
 </head>
 <body>
-<h1>OMG</h1>
+<div class="page__wrap">
+    <header class="header">
+        <div class="layout">
+            <div class="header__inner">
+                <a href="#" class="burger-menu">
+                    <svg class="burger-menu__icon">
+                        <use xlink:href="#ci_menu-alt-03"></use>
+                    </svg>
+                </a>
+                <a href="#" class="header__logo">
+                    <img src="././assets/logo-frame.svg" alt="">
+                </a>
+                <a href="#" type="button" class="btn header__btn btn__secondary">Join Now</a>
+            </div>
+        </div>
+    </header>
+    <main class="main__content">
+        <sectin class="section__plans">
+            <div class="layout">
+                <div class="section__inner">
+                    <div class="section__inner__text">
+                        <h3 class="section__heading">Plans & Pricing</h3>
+                        <div class="section__body">Whether your time-saving automation needs are large or small, we’re here
+                            to help you scale.
+                        </div>
+                    </div>
+                    <div class="switch-plan__wrap">
+                        <input type="checkbox" id="switch-plan">
+                        <label class="switch-plan" for="switch-plan">
+                            <span class="label label-month">Monthly</span>
+                            <span class="checkbox"></span>
+                            <span class="label label-year">Yearly</span>
+                        </label>
+                    </div>
+                </div>
+                <ul class="cards__list cards__list__monthly">
+                    <li class="card__item">
+                        <div class="price__wrap">
+                            <span class="card__currency">$</span>
+                            <span class="card__price">12</span>
+                            <span class="card__period">/month</span>
+                        </div>
+                        <div class="card__title">Starter</div>
+                        <div class="card__content">Unleash the power of automation.</div>
+                        <ul class="card__advantages">
+                            <li class="advantages__item">
+                                <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                Multi-step Zaps
+                            </li>
+                            <li class="advantages__item">
+                                    <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                3 Premium Apps
+                            </li>
+                            <li class="advantages__item">
+                                        <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                2 Users team
+                            </li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn__primary">Choose plan</a>
+                    </li>
+                    <li class="card__item">
+                        <div class="price__wrap">
+                            <span class="card__currency">$</span>
+                            <span class="card__price">36</span>
+                            <span class="card__period">/month</span>
+                        </div>
+                        <div class="card__title">Professional</div>
+                        <div class="card__content">Advanced tools to take your work to the next level.</div>
+                        <ul class="card__advantages">
+                            <li class="advantages__item">
+                                <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                Multi-step Zaps
+                            </li>
+                            <li class="advantages__item">
+                                    <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                Unlimited Premium Apps
+                            </li>
+                            <li class="advantages__item">
+                                        <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                50 Users team
+                            </li>
+                            <li class="advantages__item">
+                                        <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                Shared Workspace
+                            </li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn__primary">Choose plan</a>
+                    </li>
+                    <li class="card__item item__premium">
+                        <div class="price__wrap">
+                            <span class="card__currency">$</span>
+                            <span class="card__price">56</span>
+                            <span class="card__period">/month</span>
+                        </div>
+                        <div class="card__title">Company</div>
+                        <div class="card__content">Unleash the power of automation.</div>
+                        <ul class="card__advantages">
+                            <li class="advantages__item">
+                                <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                Multi-step Zaps
+                            </li>
+                            <li class="advantages__item">
+                                    <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                3 Premium Apps
+                            </li>
+                            <li class="advantages__item">
+                                        <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                2 Users team
+                            </li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn__secondary">Choose plan</a>
+                    </li>
+                </ul>
+                <ul class="cards__list cards__list__yearly">
+                    <li class="card__item">
+                        <div class="price__wrap">
+                            <span class="card__currency">$</span>
+                            <span class="card__price">19</span>
+                            <span class="card__period">/month</span>
+                        </div>
+                        <div class="card__title">Starter</div>
+                        <div class="card__content">Unleash the power of automation.</div>
+                        <ul class="card__advantages">
+                            <li class="advantages__item">
+                                <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                Multi-step Zaps
+                            </li>
+                            <li class="advantages__item">
+                                    <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                3 Premium Apps
+                            </li>
+                            <li class="advantages__item">
+                                        <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                2 Users team
+                            </li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn__primary">Choose plan</a>
+                    </li>
+                    <li class="card__item">
+                        <div class="price__wrap">
+                            <span class="card__currency">$</span>
+                            <span class="card__price">54</span>
+                            <span class="card__period">/month</span>
+                        </div>
+                        <div class="card__title">Professional</div>
+                        <div class="card__content">Advanced tools to take your work to the next level.</div>
+                        <ul class="card__advantages">
+                            <li class="advantages__item">
+                                <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                Multi-step Zaps
+                            </li>
+                            <li class="advantages__item">
+                                    <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                Unlimited Premium Apps
+                            </li>
+                            <li class="advantages__item">
+                                        <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                50 Users team
+                            </li>
+                            <li class="advantages__item">
+                                        <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                Shared Workspace
+                            </li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn__primary">Choose plan</a>
+                    </li>
+                    <li class="card__item item__premium">
+                        <div class="price__wrap">
+                            <span class="card__currency">$</span>
+                            <span class="card__price">89</span>
+                            <span class="card__period">/month</span>
+                        </div>
+                        <div class="card__title">Company</div>
+                        <div class="card__content">Unleash the power of automation.</div>
+                        <ul class="card__advantages">
+                            <li class="advantages__item">
+                                <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                Multi-step Zaps
+                            </li>
+                            <li class="advantages__item">
+                                    <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                3 Premium Apps
+                            </li>
+                            <li class="advantages__item">
+                                        <span class="icon__check__wrap">
+                                <svg class="icon__check">
+                                  <use xlink:href="#check"></use>
+                                </svg>
+                                </span>
+                                2 Users team
+                            </li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn__secondary">Choose plan</a>
+                    </li>
+                </ul>
+            </div>
+        </sectin>
+    </main>
+    <footer>
+
+    </footer>
+</div>
+
+<svg width="0" height="0" class="hidden">
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 10" id="check">
+        <path d="M11.7724 1.83334L6.06825 9.57418C5.93221 9.75467 5.72936 9.87293 5.50527 9.90239C5.28118 9.93185 5.05465 9.87004 4.87659 9.73084L0.803253 6.47418C0.443808 6.18653 0.385605 5.66195 0.673253 5.30251C0.960902 4.94306 1.48547 4.88486 1.84492 5.17251L5.24159 7.89001L10.4308 0.847509C10.6009 0.592168 10.8976 0.450995 11.2031 0.480041C11.5086 0.509086 11.7734 0.703651 11.8923 0.986486C12.0113 1.26932 11.9653 1.59466 11.7724 1.83334Z"
+              fill="currentColor"></path>
+    </symbol>
+</svg>
+<svg width="0" height="0" class="hidden">
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="ci_menu-alt-03">
+        <path d="M18 24H3V21.5H18V24ZM25.5 17.75H3V15.25H25.5V17.75ZM18 11.5H3V9H18V11.5Z"
+              fill="currentColor"></path>
+    </symbol>
+</svg>
 </body>
 </html>
+
+
 
 
